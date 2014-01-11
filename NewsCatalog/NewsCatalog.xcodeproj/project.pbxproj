@@ -1,0 +1,1110 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3310EC1517534B3600E3D17E /* EXConsts.m in Sources */ = {isa = PBXBuildFile; fileRef = 3310EC1417534B3600E3D17E /* EXConsts.m */; };
+		3310EC1817534C9500E3D17E /* EXSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3310EC1717534C9500E3D17E /* EXSettingsViewController.m */; };
+		331B703317A6670A00C4AC22 /* RssModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 331B703117A6670A00C4AC22 /* RssModel.xcdatamodeld */; };
+		331B703617A6688800C4AC22 /* RssManagedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 331B703517A6688800C4AC22 /* RssManagedItem.m */; };
+		331B703917A66A0E00C4AC22 /* RssManagedItem+Images.m in Sources */ = {isa = PBXBuildFile; fileRef = 331B703817A66A0E00C4AC22 /* RssManagedItem+Images.m */; };
+		331C0CF816F36431004F0AF7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 331C0CF716F36431004F0AF7 /* UIKit.framework */; };
+		331C0CFA16F36431004F0AF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 331C0CF916F36431004F0AF7 /* Foundation.framework */; };
+		331C0CFC16F36431004F0AF7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 331C0CFB16F36431004F0AF7 /* CoreGraphics.framework */; };
+		331C0D0216F36431004F0AF7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 331C0D0016F36431004F0AF7 /* InfoPlist.strings */; };
+		331C0D0416F36431004F0AF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 331C0D0316F36431004F0AF7 /* main.m */; };
+		331C0D0816F36431004F0AF7 /* EXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 331C0D0716F36431004F0AF7 /* EXAppDelegate.m */; };
+		331C0D1116F36431004F0AF7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 331C0D0F16F36431004F0AF7 /* MainStoryboard.storyboard */; };
+		331C0D1416F36431004F0AF7 /* EXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 331C0D1316F36431004F0AF7 /* EXViewController.m */; };
+		331C0D1C16F36B7F004F0AF7 /* EXImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 331C0D1B16F36B7F004F0AF7 /* EXImageCell.m */; };
+		3326F39B17787F710046B030 /* UIScrollView+SVInfiniteScrolling.m in Sources */ = {isa = PBXBuildFile; fileRef = 3326F39817787F710046B030 /* UIScrollView+SVInfiniteScrolling.m */; };
+		3326F39C17787F710046B030 /* UIScrollView+SVPullToRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 3326F39A17787F710046B030 /* UIScrollView+SVPullToRefresh.m */; };
+		3326F39E1778804F0046B030 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3326F39D1778804F0046B030 /* QuartzCore.framework */; };
+		3326F3A11778817B0046B030 /* EXClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3326F3A01778817B0046B030 /* EXClient.m */; };
+		33274C23172AA8FB00D2A135 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 33274C11172AA8FB00D2A135 /* AFHTTPClient.m */; };
+		33274C24172AA8FB00D2A135 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 33274C13172AA8FB00D2A135 /* AFHTTPRequestOperation.m */; };
+		33274C25172AA8FB00D2A135 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 33274C15172AA8FB00D2A135 /* AFImageRequestOperation.m */; };
+		33274C26172AA8FB00D2A135 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 33274C17172AA8FB00D2A135 /* AFJSONRequestOperation.m */; };
+		33274C27172AA8FB00D2A135 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 33274C19172AA8FB00D2A135 /* AFNetworkActivityIndicatorManager.m */; };
+		33274C28172AA8FB00D2A135 /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 33274C1C172AA8FB00D2A135 /* AFPropertyListRequestOperation.m */; };
+		33274C29172AA8FB00D2A135 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 33274C1E172AA8FB00D2A135 /* AFURLConnectionOperation.m */; };
+		33274C2A172AA8FB00D2A135 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 33274C20172AA8FB00D2A135 /* AFXMLRequestOperation.m */; };
+		33274C2B172AA8FB00D2A135 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 33274C22172AA8FB00D2A135 /* UIImageView+AFNetworking.m */; };
+		33274C31172AA90600D2A135 /* RSSItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 33274C2E172AA90600D2A135 /* RSSItem.m */; };
+		33274C32172AA90600D2A135 /* RSSParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 33274C30172AA90600D2A135 /* RSSParser.m */; };
+		33274C35172AAE5A00D2A135 /* EXWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33274C34172AAE5A00D2A135 /* EXWebViewController.m */; };
+		335B917E1705AF09004AB93A /* EXDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 335B917D1705AF09004AB93A /* EXDetailViewController.m */; };
+		338CB8051793EDC400B424D7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 338CB8041793EDC400B424D7 /* Security.framework */; };
+		338CB8071793EDC900B424D7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 338CB8061793EDC900B424D7 /* CoreData.framework */; };
+		338CB8091793EDD300B424D7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 338CB8081793EDD300B424D7 /* SystemConfiguration.framework */; };
+		338CB80B1793EDDC00B424D7 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 338CB80A1793EDDC00B424D7 /* MessageUI.framework */; };
+		338CB80D1793EE0E00B424D7 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 338CB80C1793EE0E00B424D7 /* Twitter.framework */; };
+		338CB80F1793EE1600B424D7 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 338CB80E1793EE1600B424D7 /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		338CB8A91793EE5700B424D7 /* ATResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 338CB8111793EE5700B424D7 /* ATResources.bundle */; };
+		338CB8AA1793EE5700B424D7 /* FBCacheDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB8161793EE5700B424D7 /* FBCacheDescriptor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8AB1793EE5700B424D7 /* FBCacheIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB8181793EE5700B424D7 /* FBCacheIndex.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8AC1793EE5700B424D7 /* FBContentLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB81B1793EE5700B424D7 /* FBContentLink.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8AD1793EE5700B424D7 /* FBDataDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB81D1793EE5700B424D7 /* FBDataDiskCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8AE1793EE5700B424D7 /* FBDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB81F1793EE5700B424D7 /* FBDialog.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8AF1793EE5700B424D7 /* FBError.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB8211793EE5700B424D7 /* FBError.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8B01793EE5700B424D7 /* FBFrictionlessRequestSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB8231793EE5700B424D7 /* FBFrictionlessRequestSettings.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8B11793EE5700B424D7 /* FBFriendPickerCacheDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB8251793EE5700B424D7 /* FBFriendPickerCacheDescriptor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8B21793EE5700B424D7 /* FBFriendPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB8281793EE5700B424D7 /* FBFriendPickerViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8B31793EE5700B424D7 /* FBGraphObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB82B1793EE5700B424D7 /* FBGraphObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8B41793EE5700B424D7 /* FBGraphObjectPagingLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB82D1793EE5700B424D7 /* FBGraphObjectPagingLoader.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8B51793EE5700B424D7 /* FBGraphObjectTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB82F1793EE5700B424D7 /* FBGraphObjectTableCell.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8B61793EE5700B424D7 /* FBGraphObjectTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB8311793EE5700B424D7 /* FBGraphObjectTableDataSource.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8B71793EE5700B424D7 /* FBGraphObjectTableSelection.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB8331793EE5700B424D7 /* FBGraphObjectTableSelection.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8B81793EE5700B424D7 /* FBLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB8371793EE5700B424D7 /* FBLogger.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8B91793EE5700B424D7 /* FBLoginDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB8391793EE5700B424D7 /* FBLoginDialog.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8BA1793EE5700B424D7 /* FBLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB83B1793EE5700B424D7 /* FBLoginView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8BB1793EE5700B424D7 /* FBNativeDialogs.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB83D1793EE5700B424D7 /* FBNativeDialogs.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8BC1793EE5700B424D7 /* FBPlacePickerCacheDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB8401793EE5700B424D7 /* FBPlacePickerCacheDescriptor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8BD1793EE5700B424D7 /* FBPlacePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB8431793EE5700B424D7 /* FBPlacePickerViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8BE1793EE5700B424D7 /* FBProfilePictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB8451793EE5700B424D7 /* FBProfilePictureView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8BF1793EE5700B424D7 /* FBRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB8471793EE5700B424D7 /* FBRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8C01793EE5700B424D7 /* FBRequestBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB8491793EE5700B424D7 /* FBRequestBody.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8C11793EE5700B424D7 /* FBRequestConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB84C1793EE5700B424D7 /* FBRequestConnection.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8C21793EE5700B424D7 /* FBSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB8511793EE5700B424D7 /* FBSession.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8C31793EE5700B424D7 /* FBSessionManualTokenCachingStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB8531793EE5700B424D7 /* FBSessionManualTokenCachingStrategy.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8C41793EE5700B424D7 /* FBSessionTokenCachingStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB8551793EE5700B424D7 /* FBSessionTokenCachingStrategy.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8C51793EE5700B424D7 /* FBSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB8581793EE5700B424D7 /* FBSettings.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8C61793EE5700B424D7 /* FBTestSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB85B1793EE5700B424D7 /* FBTestSession.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8C71793EE5700B424D7 /* FBURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB85D1793EE5700B424D7 /* FBURLConnection.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8C81793EE5700B424D7 /* FBUserSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB85F1793EE5700B424D7 /* FBUserSettingsViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8C91793EE5700B424D7 /* FBUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB8611793EE5700B424D7 /* FBUtility.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8CA1793EE5700B424D7 /* FBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB8641793EE5700B424D7 /* FBViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8CB1793EE5700B424D7 /* Facebook.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB8661793EE5700B424D7 /* Facebook.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8CC1793EE5700B424D7 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 338CB8681793EE5700B424D7 /* FacebookSDK.framework */; };
+		338CB8CD1793EE5700B424D7 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 338CB8691793EE5700B424D7 /* LICENSE */; };
+		338CB8CE1793EE5700B424D7 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 338CB86A1793EE5700B424D7 /* README */; };
+		338CB8CF1793EE5700B424D7 /* FBSBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB86E1793EE5700B424D7 /* FBSBJSON.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8D01793EE5700B424D7 /* FBSBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB8701793EE5700B424D7 /* FBSBJsonBase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8D11793EE5700B424D7 /* FBSBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB8721793EE5700B424D7 /* FBSBJsonParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8D21793EE5700B424D7 /* FBSBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB8741793EE5700B424D7 /* FBSBJsonWriter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8D31793EE5700B424D7 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB8791793EE5700B424D7 /* NSObject+SBJSON.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8D41793EE5700B424D7 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB87B1793EE5700B424D7 /* NSString+SBJSON.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8D51793EE5700B424D7 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB87D1793EE5700B424D7 /* SBJSON.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8D61793EE5700B424D7 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB87F1793EE5700B424D7 /* SBJsonBase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8D71793EE5700B424D7 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB8811793EE5700B424D7 /* SBJsonParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8D81793EE5700B424D7 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB8831793EE5700B424D7 /* SBJsonWriter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8D91793EE5700B424D7 /* NSMutableURLRequest+Parameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB8871793EE5700B424D7 /* NSMutableURLRequest+Parameters.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8DA1793EE5700B424D7 /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB8891793EE5700B424D7 /* NSString+URLEncoding.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8DB1793EE5700B424D7 /* NSURL+Base.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB88B1793EE5700B424D7 /* NSURL+Base.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8DC1793EE5700B424D7 /* Base64Transcoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 338CB88D1793EE5700B424D7 /* Base64Transcoder.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8DD1793EE5700B424D7 /* SFHFKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB8911793EE5700B424D7 /* SFHFKeychainUtils.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8DE1793EE5700B424D7 /* OAAsynchronousDataFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB8931793EE5700B424D7 /* OAAsynchronousDataFetcher.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8DF1793EE5700B424D7 /* OAConsumer.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB8951793EE5700B424D7 /* OAConsumer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8E01793EE5700B424D7 /* OADataFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB8971793EE5700B424D7 /* OADataFetcher.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8E11793EE5700B424D7 /* OAHMAC_SHA1SignatureProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB8991793EE5700B424D7 /* OAHMAC_SHA1SignatureProvider.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8E21793EE5700B424D7 /* OAMutableURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB89B1793EE5700B424D7 /* OAMutableURLRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8E31793EE5700B424D7 /* OAPlaintextSignatureProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB89D1793EE5700B424D7 /* OAPlaintextSignatureProvider.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8E41793EE5700B424D7 /* OARequestParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB89F1793EE5700B424D7 /* OARequestParameter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8E51793EE5700B424D7 /* OAServiceTicket.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB8A11793EE5700B424D7 /* OAServiceTicket.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8E61793EE5700B424D7 /* OAToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB8A41793EE5700B424D7 /* OAToken.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8E71793EE5700B424D7 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB8A71793EE5700B424D7 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		338CB8E81793EE5700B424D7 /* libAddThis.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 338CB8A81793EE5700B424D7 /* libAddThis.a */; };
+		338CB8EA1793F2FF00B424D7 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 338CB8E91793F2FF00B424D7 /* Accounts.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		338CB8EC1793F31700B424D7 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 338CB8EB1793F31600B424D7 /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		33BB2B6A1740CFAF00DD5DA1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33BB2B671740CFAF00DD5DA1 /* Default-568h@2x.png */; };
+		33BB2B6B1740CFAF00DD5DA1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 33BB2B681740CFAF00DD5DA1 /* Default.png */; };
+		33BB2B6C1740CFAF00DD5DA1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33BB2B691740CFAF00DD5DA1 /* Default@2x.png */; };
+		33BB2B701740CFB500DD5DA1 /* UIImage+ImageNamed568.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BB2B6F1740CFB500DD5DA1 /* UIImage+ImageNamed568.m */; };
+		33BB2B731740D16500DD5DA1 /* EXSplashScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BB2B721740D16500DD5DA1 /* EXSplashScreenViewController.m */; };
+		33E070E11765C2F3000FAC16 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 33E070E01765C2F3000FAC16 /* libsqlite3.dylib */; };
+		33E070ED1765C313000FAC16 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E070E41765C313000FAC16 /* FMDatabase.m */; };
+		33E070EE1765C313000FAC16 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E070E61765C313000FAC16 /* FMDatabaseAdditions.m */; };
+		33E070EF1765C313000FAC16 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E070E81765C313000FAC16 /* FMDatabasePool.m */; };
+		33E070F01765C313000FAC16 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E070EA1765C313000FAC16 /* FMDatabaseQueue.m */; };
+		33E070F11765C313000FAC16 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E070EC1765C313000FAC16 /* FMResultSet.m */; };
+		33E070F31765C4A2000FAC16 /* rss.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 33E070F21765C4A2000FAC16 /* rss.sqlite */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3310EC1317534B3600E3D17E /* EXConsts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXConsts.h; sourceTree = "<group>"; };
+		3310EC1417534B3600E3D17E /* EXConsts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXConsts.m; sourceTree = "<group>"; };
+		3310EC1617534C9500E3D17E /* EXSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXSettingsViewController.h; sourceTree = "<group>"; };
+		3310EC1717534C9500E3D17E /* EXSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXSettingsViewController.m; sourceTree = "<group>"; };
+		331B703217A6670A00C4AC22 /* RssModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RssModel.xcdatamodel; sourceTree = "<group>"; };
+		331B703417A6688800C4AC22 /* RssManagedItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RssManagedItem.h; sourceTree = "<group>"; };
+		331B703517A6688800C4AC22 /* RssManagedItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RssManagedItem.m; sourceTree = "<group>"; };
+		331B703717A66A0E00C4AC22 /* RssManagedItem+Images.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RssManagedItem+Images.h"; sourceTree = "<group>"; };
+		331B703817A66A0E00C4AC22 /* RssManagedItem+Images.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RssManagedItem+Images.m"; sourceTree = "<group>"; };
+		331C0CF416F36431004F0AF7 /* NewsCatalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsCatalog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		331C0CF716F36431004F0AF7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		331C0CF916F36431004F0AF7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		331C0CFB16F36431004F0AF7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		331C0CFF16F36431004F0AF7 /* NewsCatalog-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NewsCatalog-Info.plist"; sourceTree = "<group>"; };
+		331C0D0116F36431004F0AF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		331C0D0316F36431004F0AF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		331C0D0516F36431004F0AF7 /* NewsCatalog-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NewsCatalog-Prefix.pch"; sourceTree = "<group>"; };
+		331C0D0616F36431004F0AF7 /* EXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EXAppDelegate.h; sourceTree = "<group>"; };
+		331C0D0716F36431004F0AF7 /* EXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EXAppDelegate.m; sourceTree = "<group>"; };
+		331C0D1016F36431004F0AF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		331C0D1216F36431004F0AF7 /* EXViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EXViewController.h; sourceTree = "<group>"; };
+		331C0D1316F36431004F0AF7 /* EXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EXViewController.m; sourceTree = "<group>"; };
+		331C0D1A16F36B7F004F0AF7 /* EXImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXImageCell.h; sourceTree = "<group>"; };
+		331C0D1B16F36B7F004F0AF7 /* EXImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXImageCell.m; sourceTree = "<group>"; };
+		3326F39617787F710046B030 /* SVPullToRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVPullToRefresh.h; sourceTree = "<group>"; };
+		3326F39717787F710046B030 /* UIScrollView+SVInfiniteScrolling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+SVInfiniteScrolling.h"; sourceTree = "<group>"; };
+		3326F39817787F710046B030 /* UIScrollView+SVInfiniteScrolling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+SVInfiniteScrolling.m"; sourceTree = "<group>"; };
+		3326F39917787F710046B030 /* UIScrollView+SVPullToRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+SVPullToRefresh.h"; sourceTree = "<group>"; };
+		3326F39A17787F710046B030 /* UIScrollView+SVPullToRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+SVPullToRefresh.m"; sourceTree = "<group>"; };
+		3326F39D1778804F0046B030 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3326F39F1778817B0046B030 /* EXClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXClient.h; sourceTree = "<group>"; };
+		3326F3A01778817B0046B030 /* EXClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXClient.m; sourceTree = "<group>"; };
+		33274C10172AA8FB00D2A135 /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		33274C11172AA8FB00D2A135 /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
+		33274C12172AA8FB00D2A135 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		33274C13172AA8FB00D2A135 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		33274C14172AA8FB00D2A135 /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		33274C15172AA8FB00D2A135 /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
+		33274C16172AA8FB00D2A135 /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		33274C17172AA8FB00D2A135 /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRequestOperation.m; sourceTree = "<group>"; };
+		33274C18172AA8FB00D2A135 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		33274C19172AA8FB00D2A135 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		33274C1A172AA8FB00D2A135 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		33274C1B172AA8FB00D2A135 /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		33274C1C172AA8FB00D2A135 /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
+		33274C1D172AA8FB00D2A135 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		33274C1E172AA8FB00D2A135 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		33274C1F172AA8FB00D2A135 /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		33274C20172AA8FB00D2A135 /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
+		33274C21172AA8FB00D2A135 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		33274C22172AA8FB00D2A135 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		33274C2D172AA90600D2A135 /* RSSItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSItem.h; sourceTree = "<group>"; };
+		33274C2E172AA90600D2A135 /* RSSItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSItem.m; sourceTree = "<group>"; };
+		33274C2F172AA90600D2A135 /* RSSParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSParser.h; sourceTree = "<group>"; };
+		33274C30172AA90600D2A135 /* RSSParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSParser.m; sourceTree = "<group>"; };
+		33274C33172AAE5A00D2A135 /* EXWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXWebViewController.h; sourceTree = "<group>"; };
+		33274C34172AAE5A00D2A135 /* EXWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXWebViewController.m; sourceTree = "<group>"; };
+		335B917C1705AF09004AB93A /* EXDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXDetailViewController.h; sourceTree = "<group>"; };
+		335B917D1705AF09004AB93A /* EXDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXDetailViewController.m; sourceTree = "<group>"; };
+		338CB8041793EDC400B424D7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		338CB8061793EDC900B424D7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		338CB8081793EDD300B424D7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		338CB80A1793EDDC00B424D7 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		338CB80C1793EE0E00B424D7 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		338CB80E1793EE1600B424D7 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		338CB8111793EE5700B424D7 /* ATResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ATResources.bundle; sourceTree = "<group>"; };
+		338CB8121793EE5700B424D7 /* AddThis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddThis.h; sourceTree = "<group>"; };
+		338CB8151793EE5700B424D7 /* FBCacheDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBCacheDescriptor.h; sourceTree = "<group>"; };
+		338CB8161793EE5700B424D7 /* FBCacheDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBCacheDescriptor.m; sourceTree = "<group>"; };
+		338CB8171793EE5700B424D7 /* FBCacheIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBCacheIndex.h; sourceTree = "<group>"; };
+		338CB8181793EE5700B424D7 /* FBCacheIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBCacheIndex.m; sourceTree = "<group>"; };
+		338CB8191793EE5700B424D7 /* FBConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBConnect.h; sourceTree = "<group>"; };
+		338CB81A1793EE5700B424D7 /* FBContentLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBContentLink.h; sourceTree = "<group>"; };
+		338CB81B1793EE5700B424D7 /* FBContentLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBContentLink.m; sourceTree = "<group>"; };
+		338CB81C1793EE5700B424D7 /* FBDataDiskCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBDataDiskCache.h; sourceTree = "<group>"; };
+		338CB81D1793EE5700B424D7 /* FBDataDiskCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBDataDiskCache.m; sourceTree = "<group>"; };
+		338CB81E1793EE5700B424D7 /* FBDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBDialog.h; sourceTree = "<group>"; };
+		338CB81F1793EE5700B424D7 /* FBDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBDialog.m; sourceTree = "<group>"; };
+		338CB8201793EE5700B424D7 /* FBError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBError.h; sourceTree = "<group>"; };
+		338CB8211793EE5700B424D7 /* FBError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBError.m; sourceTree = "<group>"; };
+		338CB8221793EE5700B424D7 /* FBFrictionlessRequestSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBFrictionlessRequestSettings.h; sourceTree = "<group>"; };
+		338CB8231793EE5700B424D7 /* FBFrictionlessRequestSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBFrictionlessRequestSettings.m; sourceTree = "<group>"; };
+		338CB8241793EE5700B424D7 /* FBFriendPickerCacheDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBFriendPickerCacheDescriptor.h; sourceTree = "<group>"; };
+		338CB8251793EE5700B424D7 /* FBFriendPickerCacheDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBFriendPickerCacheDescriptor.m; sourceTree = "<group>"; };
+		338CB8261793EE5700B424D7 /* FBFriendPickerViewController+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBFriendPickerViewController+Internal.h"; sourceTree = "<group>"; };
+		338CB8271793EE5700B424D7 /* FBFriendPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBFriendPickerViewController.h; sourceTree = "<group>"; };
+		338CB8281793EE5700B424D7 /* FBFriendPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBFriendPickerViewController.m; sourceTree = "<group>"; };
+		338CB8291793EE5700B424D7 /* FBGraphLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBGraphLocation.h; sourceTree = "<group>"; };
+		338CB82A1793EE5700B424D7 /* FBGraphObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBGraphObject.h; sourceTree = "<group>"; };
+		338CB82B1793EE5700B424D7 /* FBGraphObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBGraphObject.m; sourceTree = "<group>"; };
+		338CB82C1793EE5700B424D7 /* FBGraphObjectPagingLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBGraphObjectPagingLoader.h; sourceTree = "<group>"; };
+		338CB82D1793EE5700B424D7 /* FBGraphObjectPagingLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBGraphObjectPagingLoader.m; sourceTree = "<group>"; };
+		338CB82E1793EE5700B424D7 /* FBGraphObjectTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBGraphObjectTableCell.h; sourceTree = "<group>"; };
+		338CB82F1793EE5700B424D7 /* FBGraphObjectTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBGraphObjectTableCell.m; sourceTree = "<group>"; };
+		338CB8301793EE5700B424D7 /* FBGraphObjectTableDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBGraphObjectTableDataSource.h; sourceTree = "<group>"; };
+		338CB8311793EE5700B424D7 /* FBGraphObjectTableDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBGraphObjectTableDataSource.m; sourceTree = "<group>"; };
+		338CB8321793EE5700B424D7 /* FBGraphObjectTableSelection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBGraphObjectTableSelection.h; sourceTree = "<group>"; };
+		338CB8331793EE5700B424D7 /* FBGraphObjectTableSelection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBGraphObjectTableSelection.m; sourceTree = "<group>"; };
+		338CB8341793EE5700B424D7 /* FBGraphPlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBGraphPlace.h; sourceTree = "<group>"; };
+		338CB8351793EE5700B424D7 /* FBGraphUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBGraphUser.h; sourceTree = "<group>"; };
+		338CB8361793EE5700B424D7 /* FBLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLogger.h; sourceTree = "<group>"; };
+		338CB8371793EE5700B424D7 /* FBLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBLogger.m; sourceTree = "<group>"; };
+		338CB8381793EE5700B424D7 /* FBLoginDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLoginDialog.h; sourceTree = "<group>"; };
+		338CB8391793EE5700B424D7 /* FBLoginDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBLoginDialog.m; sourceTree = "<group>"; };
+		338CB83A1793EE5700B424D7 /* FBLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLoginView.h; sourceTree = "<group>"; };
+		338CB83B1793EE5700B424D7 /* FBLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBLoginView.m; sourceTree = "<group>"; };
+		338CB83C1793EE5700B424D7 /* FBNativeDialogs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBNativeDialogs.h; sourceTree = "<group>"; };
+		338CB83D1793EE5700B424D7 /* FBNativeDialogs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBNativeDialogs.m; sourceTree = "<group>"; };
+		338CB83E1793EE5700B424D7 /* FBOpenGraphAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBOpenGraphAction.h; sourceTree = "<group>"; };
+		338CB83F1793EE5700B424D7 /* FBPlacePickerCacheDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBPlacePickerCacheDescriptor.h; sourceTree = "<group>"; };
+		338CB8401793EE5700B424D7 /* FBPlacePickerCacheDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBPlacePickerCacheDescriptor.m; sourceTree = "<group>"; };
+		338CB8411793EE5700B424D7 /* FBPlacePickerViewController+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBPlacePickerViewController+Internal.h"; sourceTree = "<group>"; };
+		338CB8421793EE5700B424D7 /* FBPlacePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBPlacePickerViewController.h; sourceTree = "<group>"; };
+		338CB8431793EE5700B424D7 /* FBPlacePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBPlacePickerViewController.m; sourceTree = "<group>"; };
+		338CB8441793EE5700B424D7 /* FBProfilePictureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBProfilePictureView.h; sourceTree = "<group>"; };
+		338CB8451793EE5700B424D7 /* FBProfilePictureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBProfilePictureView.m; sourceTree = "<group>"; };
+		338CB8461793EE5700B424D7 /* FBRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBRequest.h; sourceTree = "<group>"; };
+		338CB8471793EE5700B424D7 /* FBRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBRequest.m; sourceTree = "<group>"; };
+		338CB8481793EE5700B424D7 /* FBRequestBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBRequestBody.h; sourceTree = "<group>"; };
+		338CB8491793EE5700B424D7 /* FBRequestBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBRequestBody.m; sourceTree = "<group>"; };
+		338CB84A1793EE5700B424D7 /* FBRequestConnection+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBRequestConnection+Internal.h"; sourceTree = "<group>"; };
+		338CB84B1793EE5700B424D7 /* FBRequestConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBRequestConnection.h; sourceTree = "<group>"; };
+		338CB84C1793EE5700B424D7 /* FBRequestConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBRequestConnection.m; sourceTree = "<group>"; };
+		338CB84D1793EE5700B424D7 /* FBSDKVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSDKVersion.h; sourceTree = "<group>"; };
+		338CB84E1793EE5700B424D7 /* FBSession+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBSession+Internal.h"; sourceTree = "<group>"; };
+		338CB84F1793EE5700B424D7 /* FBSession+Protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBSession+Protected.h"; sourceTree = "<group>"; };
+		338CB8501793EE5700B424D7 /* FBSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSession.h; sourceTree = "<group>"; };
+		338CB8511793EE5700B424D7 /* FBSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSession.m; sourceTree = "<group>"; };
+		338CB8521793EE5700B424D7 /* FBSessionManualTokenCachingStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSessionManualTokenCachingStrategy.h; sourceTree = "<group>"; };
+		338CB8531793EE5700B424D7 /* FBSessionManualTokenCachingStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSessionManualTokenCachingStrategy.m; sourceTree = "<group>"; };
+		338CB8541793EE5700B424D7 /* FBSessionTokenCachingStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSessionTokenCachingStrategy.h; sourceTree = "<group>"; };
+		338CB8551793EE5700B424D7 /* FBSessionTokenCachingStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSessionTokenCachingStrategy.m; sourceTree = "<group>"; };
+		338CB8561793EE5700B424D7 /* FBSettings+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBSettings+Internal.h"; sourceTree = "<group>"; };
+		338CB8571793EE5700B424D7 /* FBSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSettings.h; sourceTree = "<group>"; };
+		338CB8581793EE5700B424D7 /* FBSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSettings.m; sourceTree = "<group>"; };
+		338CB8591793EE5700B424D7 /* FBTestSession+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBTestSession+Internal.h"; sourceTree = "<group>"; };
+		338CB85A1793EE5700B424D7 /* FBTestSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTestSession.h; sourceTree = "<group>"; };
+		338CB85B1793EE5700B424D7 /* FBTestSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTestSession.m; sourceTree = "<group>"; };
+		338CB85C1793EE5700B424D7 /* FBURLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBURLConnection.h; sourceTree = "<group>"; };
+		338CB85D1793EE5700B424D7 /* FBURLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBURLConnection.m; sourceTree = "<group>"; };
+		338CB85E1793EE5700B424D7 /* FBUserSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBUserSettingsViewController.h; sourceTree = "<group>"; };
+		338CB85F1793EE5700B424D7 /* FBUserSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBUserSettingsViewController.m; sourceTree = "<group>"; };
+		338CB8601793EE5700B424D7 /* FBUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBUtility.h; sourceTree = "<group>"; };
+		338CB8611793EE5700B424D7 /* FBUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBUtility.m; sourceTree = "<group>"; };
+		338CB8621793EE5700B424D7 /* FBViewController+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBViewController+Internal.h"; sourceTree = "<group>"; };
+		338CB8631793EE5700B424D7 /* FBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBViewController.h; sourceTree = "<group>"; };
+		338CB8641793EE5700B424D7 /* FBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBViewController.m; sourceTree = "<group>"; };
+		338CB8651793EE5700B424D7 /* Facebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Facebook.h; sourceTree = "<group>"; };
+		338CB8661793EE5700B424D7 /* Facebook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Facebook.m; sourceTree = "<group>"; };
+		338CB8681793EE5700B424D7 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		338CB8691793EE5700B424D7 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		338CB86A1793EE5700B424D7 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		338CB86B1793EE5700B424D7 /* FacebookSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookSDK.h; sourceTree = "<group>"; };
+		338CB86D1793EE5700B424D7 /* FBSBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSBJSON.h; sourceTree = "<group>"; };
+		338CB86E1793EE5700B424D7 /* FBSBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSBJSON.m; sourceTree = "<group>"; };
+		338CB86F1793EE5700B424D7 /* FBSBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSBJsonBase.h; sourceTree = "<group>"; };
+		338CB8701793EE5700B424D7 /* FBSBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSBJsonBase.m; sourceTree = "<group>"; };
+		338CB8711793EE5700B424D7 /* FBSBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSBJsonParser.h; sourceTree = "<group>"; };
+		338CB8721793EE5700B424D7 /* FBSBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSBJsonParser.m; sourceTree = "<group>"; };
+		338CB8731793EE5700B424D7 /* FBSBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSBJsonWriter.h; sourceTree = "<group>"; };
+		338CB8741793EE5700B424D7 /* FBSBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSBJsonWriter.m; sourceTree = "<group>"; };
+		338CB8751793EE5700B424D7 /* facebook_ios_sdk_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = facebook_ios_sdk_Prefix.pch; sourceTree = "<group>"; };
+		338CB8771793EE5700B424D7 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		338CB8781793EE5700B424D7 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		338CB8791793EE5700B424D7 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		338CB87A1793EE5700B424D7 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		338CB87B1793EE5700B424D7 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		338CB87C1793EE5700B424D7 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		338CB87D1793EE5700B424D7 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		338CB87E1793EE5700B424D7 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		338CB87F1793EE5700B424D7 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		338CB8801793EE5700B424D7 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		338CB8811793EE5700B424D7 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		338CB8821793EE5700B424D7 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		338CB8831793EE5700B424D7 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		338CB8861793EE5700B424D7 /* NSMutableURLRequest+Parameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableURLRequest+Parameters.h"; sourceTree = "<group>"; };
+		338CB8871793EE5700B424D7 /* NSMutableURLRequest+Parameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableURLRequest+Parameters.m"; sourceTree = "<group>"; };
+		338CB8881793EE5700B424D7 /* NSString+URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncoding.h"; sourceTree = "<group>"; };
+		338CB8891793EE5700B424D7 /* NSString+URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncoding.m"; sourceTree = "<group>"; };
+		338CB88A1793EE5700B424D7 /* NSURL+Base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+Base.h"; sourceTree = "<group>"; };
+		338CB88B1793EE5700B424D7 /* NSURL+Base.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+Base.m"; sourceTree = "<group>"; };
+		338CB88D1793EE5700B424D7 /* Base64Transcoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Base64Transcoder.c; sourceTree = "<group>"; };
+		338CB88E1793EE5700B424D7 /* Base64Transcoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Transcoder.h; sourceTree = "<group>"; };
+		338CB8901793EE5700B424D7 /* SFHFKeychainUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFHFKeychainUtils.h; sourceTree = "<group>"; };
+		338CB8911793EE5700B424D7 /* SFHFKeychainUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFHFKeychainUtils.m; sourceTree = "<group>"; };
+		338CB8921793EE5700B424D7 /* OAAsynchronousDataFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAAsynchronousDataFetcher.h; sourceTree = "<group>"; };
+		338CB8931793EE5700B424D7 /* OAAsynchronousDataFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAAsynchronousDataFetcher.m; sourceTree = "<group>"; };
+		338CB8941793EE5700B424D7 /* OAConsumer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAConsumer.h; sourceTree = "<group>"; };
+		338CB8951793EE5700B424D7 /* OAConsumer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAConsumer.m; sourceTree = "<group>"; };
+		338CB8961793EE5700B424D7 /* OADataFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OADataFetcher.h; sourceTree = "<group>"; };
+		338CB8971793EE5700B424D7 /* OADataFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OADataFetcher.m; sourceTree = "<group>"; };
+		338CB8981793EE5700B424D7 /* OAHMAC_SHA1SignatureProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAHMAC_SHA1SignatureProvider.h; sourceTree = "<group>"; };
+		338CB8991793EE5700B424D7 /* OAHMAC_SHA1SignatureProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAHMAC_SHA1SignatureProvider.m; sourceTree = "<group>"; };
+		338CB89A1793EE5700B424D7 /* OAMutableURLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAMutableURLRequest.h; sourceTree = "<group>"; };
+		338CB89B1793EE5700B424D7 /* OAMutableURLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAMutableURLRequest.m; sourceTree = "<group>"; };
+		338CB89C1793EE5700B424D7 /* OAPlaintextSignatureProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAPlaintextSignatureProvider.h; sourceTree = "<group>"; };
+		338CB89D1793EE5700B424D7 /* OAPlaintextSignatureProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAPlaintextSignatureProvider.m; sourceTree = "<group>"; };
+		338CB89E1793EE5700B424D7 /* OARequestParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OARequestParameter.h; sourceTree = "<group>"; };
+		338CB89F1793EE5700B424D7 /* OARequestParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OARequestParameter.m; sourceTree = "<group>"; };
+		338CB8A01793EE5700B424D7 /* OAServiceTicket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAServiceTicket.h; sourceTree = "<group>"; };
+		338CB8A11793EE5700B424D7 /* OAServiceTicket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAServiceTicket.m; sourceTree = "<group>"; };
+		338CB8A21793EE5700B424D7 /* OASignatureProviding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OASignatureProviding.h; sourceTree = "<group>"; };
+		338CB8A31793EE5700B424D7 /* OAToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAToken.h; sourceTree = "<group>"; };
+		338CB8A41793EE5700B424D7 /* OAToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAToken.m; sourceTree = "<group>"; };
+		338CB8A51793EE5700B424D7 /* OAuthConsumer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthConsumer.h; sourceTree = "<group>"; };
+		338CB8A61793EE5700B424D7 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		338CB8A71793EE5700B424D7 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		338CB8A81793EE5700B424D7 /* libAddThis.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAddThis.a; sourceTree = "<group>"; };
+		338CB8E91793F2FF00B424D7 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		338CB8EB1793F31600B424D7 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		33BB2B671740CFAF00DD5DA1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		33BB2B681740CFAF00DD5DA1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		33BB2B691740CFAF00DD5DA1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		33BB2B6E1740CFB500DD5DA1 /* UIImage+ImageNamed568.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageNamed568.h"; sourceTree = "<group>"; };
+		33BB2B6F1740CFB500DD5DA1 /* UIImage+ImageNamed568.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageNamed568.m"; sourceTree = "<group>"; };
+		33BB2B711740D16500DD5DA1 /* EXSplashScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXSplashScreenViewController.h; sourceTree = "<group>"; };
+		33BB2B721740D16500DD5DA1 /* EXSplashScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXSplashScreenViewController.m; sourceTree = "<group>"; };
+		33E070E01765C2F3000FAC16 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		33E070E31765C313000FAC16 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = Libraries/fmdb/src/FMDatabase.h; sourceTree = "<group>"; };
+		33E070E41765C313000FAC16 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = Libraries/fmdb/src/FMDatabase.m; sourceTree = "<group>"; };
+		33E070E51765C313000FAC16 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = Libraries/fmdb/src/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		33E070E61765C313000FAC16 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = Libraries/fmdb/src/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		33E070E71765C313000FAC16 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = Libraries/fmdb/src/FMDatabasePool.h; sourceTree = "<group>"; };
+		33E070E81765C313000FAC16 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = Libraries/fmdb/src/FMDatabasePool.m; sourceTree = "<group>"; };
+		33E070E91765C313000FAC16 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = Libraries/fmdb/src/FMDatabaseQueue.h; sourceTree = "<group>"; };
+		33E070EA1765C313000FAC16 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = Libraries/fmdb/src/FMDatabaseQueue.m; sourceTree = "<group>"; };
+		33E070EB1765C313000FAC16 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = Libraries/fmdb/src/FMResultSet.h; sourceTree = "<group>"; };
+		33E070EC1765C313000FAC16 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = Libraries/fmdb/src/FMResultSet.m; sourceTree = "<group>"; };
+		33E070F21765C4A2000FAC16 /* rss.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = rss.sqlite; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		331C0CF116F36431004F0AF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				338CB8EC1793F31700B424D7 /* AdSupport.framework in Frameworks */,
+				338CB8EA1793F2FF00B424D7 /* Accounts.framework in Frameworks */,
+				338CB80F1793EE1600B424D7 /* Social.framework in Frameworks */,
+				338CB80D1793EE0E00B424D7 /* Twitter.framework in Frameworks */,
+				338CB80B1793EDDC00B424D7 /* MessageUI.framework in Frameworks */,
+				338CB8091793EDD300B424D7 /* SystemConfiguration.framework in Frameworks */,
+				338CB8071793EDC900B424D7 /* CoreData.framework in Frameworks */,
+				338CB8051793EDC400B424D7 /* Security.framework in Frameworks */,
+				3326F39E1778804F0046B030 /* QuartzCore.framework in Frameworks */,
+				33E070E11765C2F3000FAC16 /* libsqlite3.dylib in Frameworks */,
+				331C0CF816F36431004F0AF7 /* UIKit.framework in Frameworks */,
+				331C0CFA16F36431004F0AF7 /* Foundation.framework in Frameworks */,
+				331C0CFC16F36431004F0AF7 /* CoreGraphics.framework in Frameworks */,
+				338CB8CC1793EE5700B424D7 /* FacebookSDK.framework in Frameworks */,
+				338CB8E81793EE5700B424D7 /* libAddThis.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		331C0CEB16F36431004F0AF7 = {
+			isa = PBXGroup;
+			children = (
+				331C0CFD16F36431004F0AF7 /* NewsCatalog */,
+				331C0CF616F36431004F0AF7 /* Frameworks */,
+				331C0CF516F36431004F0AF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		331C0CF516F36431004F0AF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				331C0CF416F36431004F0AF7 /* NewsCatalog.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		331C0CF616F36431004F0AF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33274B6D172AA8E900D2A135 /* Libraries */,
+				33E070E01765C2F3000FAC16 /* libsqlite3.dylib */,
+				338CB8EB1793F31600B424D7 /* AdSupport.framework */,
+				338CB8E91793F2FF00B424D7 /* Accounts.framework */,
+				338CB80E1793EE1600B424D7 /* Social.framework */,
+				338CB80C1793EE0E00B424D7 /* Twitter.framework */,
+				338CB80A1793EDDC00B424D7 /* MessageUI.framework */,
+				338CB8081793EDD300B424D7 /* SystemConfiguration.framework */,
+				338CB8061793EDC900B424D7 /* CoreData.framework */,
+				338CB8041793EDC400B424D7 /* Security.framework */,
+				3326F39D1778804F0046B030 /* QuartzCore.framework */,
+				331C0CF716F36431004F0AF7 /* UIKit.framework */,
+				331C0CF916F36431004F0AF7 /* Foundation.framework */,
+				331C0CFB16F36431004F0AF7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		331C0CFD16F36431004F0AF7 /* NewsCatalog */ = {
+			isa = PBXGroup;
+			children = (
+				331C0D0616F36431004F0AF7 /* EXAppDelegate.h */,
+				331C0D0716F36431004F0AF7 /* EXAppDelegate.m */,
+				3326F39F1778817B0046B030 /* EXClient.h */,
+				3326F3A01778817B0046B030 /* EXClient.m */,
+				331B703117A6670A00C4AC22 /* RssModel.xcdatamodeld */,
+				331B703417A6688800C4AC22 /* RssManagedItem.h */,
+				331B703517A6688800C4AC22 /* RssManagedItem.m */,
+				331B703717A66A0E00C4AC22 /* RssManagedItem+Images.h */,
+				331B703817A66A0E00C4AC22 /* RssManagedItem+Images.m */,
+				3310EC1317534B3600E3D17E /* EXConsts.h */,
+				3310EC1417534B3600E3D17E /* EXConsts.m */,
+				331C0D0F16F36431004F0AF7 /* MainStoryboard.storyboard */,
+				331C0D1A16F36B7F004F0AF7 /* EXImageCell.h */,
+				331C0D1B16F36B7F004F0AF7 /* EXImageCell.m */,
+				331C0D1216F36431004F0AF7 /* EXViewController.h */,
+				331C0D1316F36431004F0AF7 /* EXViewController.m */,
+				335B917C1705AF09004AB93A /* EXDetailViewController.h */,
+				335B917D1705AF09004AB93A /* EXDetailViewController.m */,
+				33274C33172AAE5A00D2A135 /* EXWebViewController.h */,
+				33274C34172AAE5A00D2A135 /* EXWebViewController.m */,
+				3310EC1617534C9500E3D17E /* EXSettingsViewController.h */,
+				3310EC1717534C9500E3D17E /* EXSettingsViewController.m */,
+				33BB2B711740D16500DD5DA1 /* EXSplashScreenViewController.h */,
+				33BB2B721740D16500DD5DA1 /* EXSplashScreenViewController.m */,
+				33BB2B661740CFAF00DD5DA1 /* Resources */,
+				331C0CFE16F36431004F0AF7 /* Supporting Files */,
+			);
+			path = NewsCatalog;
+			sourceTree = "<group>";
+		};
+		331C0CFE16F36431004F0AF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				331C0CFF16F36431004F0AF7 /* NewsCatalog-Info.plist */,
+				331C0D0016F36431004F0AF7 /* InfoPlist.strings */,
+				331C0D0316F36431004F0AF7 /* main.m */,
+				331C0D0516F36431004F0AF7 /* NewsCatalog-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3326F39517787F710046B030 /* SVPullToRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				3326F39617787F710046B030 /* SVPullToRefresh.h */,
+				3326F39717787F710046B030 /* UIScrollView+SVInfiniteScrolling.h */,
+				3326F39817787F710046B030 /* UIScrollView+SVInfiniteScrolling.m */,
+				3326F39917787F710046B030 /* UIScrollView+SVPullToRefresh.h */,
+				3326F39A17787F710046B030 /* UIScrollView+SVPullToRefresh.m */,
+			);
+			name = SVPullToRefresh;
+			path = SVPullToRefresh/SVPullToRefresh;
+			sourceTree = "<group>";
+		};
+		33274B6D172AA8E900D2A135 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				338CB8101793EE5700B424D7 /* AddThis */,
+				3326F39517787F710046B030 /* SVPullToRefresh */,
+				33E070E21765C302000FAC16 /* fmdb */,
+				33BB2B6D1740CFB500DD5DA1 /* UIImage+ImageNamed568 */,
+				33274C2C172AA90600D2A135 /* RSSParser */,
+				33274C0F172AA8FB00D2A135 /* AFNetworking */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		33274C0F172AA8FB00D2A135 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				33274C10172AA8FB00D2A135 /* AFHTTPClient.h */,
+				33274C11172AA8FB00D2A135 /* AFHTTPClient.m */,
+				33274C12172AA8FB00D2A135 /* AFHTTPRequestOperation.h */,
+				33274C13172AA8FB00D2A135 /* AFHTTPRequestOperation.m */,
+				33274C14172AA8FB00D2A135 /* AFImageRequestOperation.h */,
+				33274C15172AA8FB00D2A135 /* AFImageRequestOperation.m */,
+				33274C16172AA8FB00D2A135 /* AFJSONRequestOperation.h */,
+				33274C17172AA8FB00D2A135 /* AFJSONRequestOperation.m */,
+				33274C18172AA8FB00D2A135 /* AFNetworkActivityIndicatorManager.h */,
+				33274C19172AA8FB00D2A135 /* AFNetworkActivityIndicatorManager.m */,
+				33274C1A172AA8FB00D2A135 /* AFNetworking.h */,
+				33274C1B172AA8FB00D2A135 /* AFPropertyListRequestOperation.h */,
+				33274C1C172AA8FB00D2A135 /* AFPropertyListRequestOperation.m */,
+				33274C1D172AA8FB00D2A135 /* AFURLConnectionOperation.h */,
+				33274C1E172AA8FB00D2A135 /* AFURLConnectionOperation.m */,
+				33274C1F172AA8FB00D2A135 /* AFXMLRequestOperation.h */,
+				33274C20172AA8FB00D2A135 /* AFXMLRequestOperation.m */,
+				33274C21172AA8FB00D2A135 /* UIImageView+AFNetworking.h */,
+				33274C22172AA8FB00D2A135 /* UIImageView+AFNetworking.m */,
+			);
+			name = AFNetworking;
+			path = AFNetworking/AFNetworking;
+			sourceTree = "<group>";
+		};
+		33274C2C172AA90600D2A135 /* RSSParser */ = {
+			isa = PBXGroup;
+			children = (
+				33274C2D172AA90600D2A135 /* RSSItem.h */,
+				33274C2E172AA90600D2A135 /* RSSItem.m */,
+				33274C2F172AA90600D2A135 /* RSSParser.h */,
+				33274C30172AA90600D2A135 /* RSSParser.m */,
+			);
+			name = RSSParser;
+			path = BlockRSSParser/RSSParser;
+			sourceTree = "<group>";
+		};
+		338CB8101793EE5700B424D7 /* AddThis */ = {
+			isa = PBXGroup;
+			children = (
+				338CB8111793EE5700B424D7 /* ATResources.bundle */,
+				338CB8121793EE5700B424D7 /* AddThis.h */,
+				338CB8131793EE5700B424D7 /* ThirdPartyLibs */,
+				338CB8A81793EE5700B424D7 /* libAddThis.a */,
+			);
+			path = AddThis;
+			sourceTree = "<group>";
+		};
+		338CB8131793EE5700B424D7 /* ThirdPartyLibs */ = {
+			isa = PBXGroup;
+			children = (
+				338CB8141793EE5700B424D7 /* FBConnect */,
+				338CB8761793EE5700B424D7 /* JSON */,
+				338CB8841793EE5700B424D7 /* OAuth */,
+				338CB8A61793EE5700B424D7 /* Reachability.h */,
+				338CB8A71793EE5700B424D7 /* Reachability.m */,
+			);
+			path = ThirdPartyLibs;
+			sourceTree = "<group>";
+		};
+		338CB8141793EE5700B424D7 /* FBConnect */ = {
+			isa = PBXGroup;
+			children = (
+				338CB8151793EE5700B424D7 /* FBCacheDescriptor.h */,
+				338CB8161793EE5700B424D7 /* FBCacheDescriptor.m */,
+				338CB8171793EE5700B424D7 /* FBCacheIndex.h */,
+				338CB8181793EE5700B424D7 /* FBCacheIndex.m */,
+				338CB8191793EE5700B424D7 /* FBConnect.h */,
+				338CB81A1793EE5700B424D7 /* FBContentLink.h */,
+				338CB81B1793EE5700B424D7 /* FBContentLink.m */,
+				338CB81C1793EE5700B424D7 /* FBDataDiskCache.h */,
+				338CB81D1793EE5700B424D7 /* FBDataDiskCache.m */,
+				338CB81E1793EE5700B424D7 /* FBDialog.h */,
+				338CB81F1793EE5700B424D7 /* FBDialog.m */,
+				338CB8201793EE5700B424D7 /* FBError.h */,
+				338CB8211793EE5700B424D7 /* FBError.m */,
+				338CB8221793EE5700B424D7 /* FBFrictionlessRequestSettings.h */,
+				338CB8231793EE5700B424D7 /* FBFrictionlessRequestSettings.m */,
+				338CB8241793EE5700B424D7 /* FBFriendPickerCacheDescriptor.h */,
+				338CB8251793EE5700B424D7 /* FBFriendPickerCacheDescriptor.m */,
+				338CB8261793EE5700B424D7 /* FBFriendPickerViewController+Internal.h */,
+				338CB8271793EE5700B424D7 /* FBFriendPickerViewController.h */,
+				338CB8281793EE5700B424D7 /* FBFriendPickerViewController.m */,
+				338CB8291793EE5700B424D7 /* FBGraphLocation.h */,
+				338CB82A1793EE5700B424D7 /* FBGraphObject.h */,
+				338CB82B1793EE5700B424D7 /* FBGraphObject.m */,
+				338CB82C1793EE5700B424D7 /* FBGraphObjectPagingLoader.h */,
+				338CB82D1793EE5700B424D7 /* FBGraphObjectPagingLoader.m */,
+				338CB82E1793EE5700B424D7 /* FBGraphObjectTableCell.h */,
+				338CB82F1793EE5700B424D7 /* FBGraphObjectTableCell.m */,
+				338CB8301793EE5700B424D7 /* FBGraphObjectTableDataSource.h */,
+				338CB8311793EE5700B424D7 /* FBGraphObjectTableDataSource.m */,
+				338CB8321793EE5700B424D7 /* FBGraphObjectTableSelection.h */,
+				338CB8331793EE5700B424D7 /* FBGraphObjectTableSelection.m */,
+				338CB8341793EE5700B424D7 /* FBGraphPlace.h */,
+				338CB8351793EE5700B424D7 /* FBGraphUser.h */,
+				338CB8361793EE5700B424D7 /* FBLogger.h */,
+				338CB8371793EE5700B424D7 /* FBLogger.m */,
+				338CB8381793EE5700B424D7 /* FBLoginDialog.h */,
+				338CB8391793EE5700B424D7 /* FBLoginDialog.m */,
+				338CB83A1793EE5700B424D7 /* FBLoginView.h */,
+				338CB83B1793EE5700B424D7 /* FBLoginView.m */,
+				338CB83C1793EE5700B424D7 /* FBNativeDialogs.h */,
+				338CB83D1793EE5700B424D7 /* FBNativeDialogs.m */,
+				338CB83E1793EE5700B424D7 /* FBOpenGraphAction.h */,
+				338CB83F1793EE5700B424D7 /* FBPlacePickerCacheDescriptor.h */,
+				338CB8401793EE5700B424D7 /* FBPlacePickerCacheDescriptor.m */,
+				338CB8411793EE5700B424D7 /* FBPlacePickerViewController+Internal.h */,
+				338CB8421793EE5700B424D7 /* FBPlacePickerViewController.h */,
+				338CB8431793EE5700B424D7 /* FBPlacePickerViewController.m */,
+				338CB8441793EE5700B424D7 /* FBProfilePictureView.h */,
+				338CB8451793EE5700B424D7 /* FBProfilePictureView.m */,
+				338CB8461793EE5700B424D7 /* FBRequest.h */,
+				338CB8471793EE5700B424D7 /* FBRequest.m */,
+				338CB8481793EE5700B424D7 /* FBRequestBody.h */,
+				338CB8491793EE5700B424D7 /* FBRequestBody.m */,
+				338CB84A1793EE5700B424D7 /* FBRequestConnection+Internal.h */,
+				338CB84B1793EE5700B424D7 /* FBRequestConnection.h */,
+				338CB84C1793EE5700B424D7 /* FBRequestConnection.m */,
+				338CB84D1793EE5700B424D7 /* FBSDKVersion.h */,
+				338CB84E1793EE5700B424D7 /* FBSession+Internal.h */,
+				338CB84F1793EE5700B424D7 /* FBSession+Protected.h */,
+				338CB8501793EE5700B424D7 /* FBSession.h */,
+				338CB8511793EE5700B424D7 /* FBSession.m */,
+				338CB8521793EE5700B424D7 /* FBSessionManualTokenCachingStrategy.h */,
+				338CB8531793EE5700B424D7 /* FBSessionManualTokenCachingStrategy.m */,
+				338CB8541793EE5700B424D7 /* FBSessionTokenCachingStrategy.h */,
+				338CB8551793EE5700B424D7 /* FBSessionTokenCachingStrategy.m */,
+				338CB8561793EE5700B424D7 /* FBSettings+Internal.h */,
+				338CB8571793EE5700B424D7 /* FBSettings.h */,
+				338CB8581793EE5700B424D7 /* FBSettings.m */,
+				338CB8591793EE5700B424D7 /* FBTestSession+Internal.h */,
+				338CB85A1793EE5700B424D7 /* FBTestSession.h */,
+				338CB85B1793EE5700B424D7 /* FBTestSession.m */,
+				338CB85C1793EE5700B424D7 /* FBURLConnection.h */,
+				338CB85D1793EE5700B424D7 /* FBURLConnection.m */,
+				338CB85E1793EE5700B424D7 /* FBUserSettingsViewController.h */,
+				338CB85F1793EE5700B424D7 /* FBUserSettingsViewController.m */,
+				338CB8601793EE5700B424D7 /* FBUtility.h */,
+				338CB8611793EE5700B424D7 /* FBUtility.m */,
+				338CB8621793EE5700B424D7 /* FBViewController+Internal.h */,
+				338CB8631793EE5700B424D7 /* FBViewController.h */,
+				338CB8641793EE5700B424D7 /* FBViewController.m */,
+				338CB8651793EE5700B424D7 /* Facebook.h */,
+				338CB8661793EE5700B424D7 /* Facebook.m */,
+				338CB8671793EE5700B424D7 /* FacebookSDK */,
+				338CB86B1793EE5700B424D7 /* FacebookSDK.h */,
+				338CB86C1793EE5700B424D7 /* JSON */,
+				338CB8751793EE5700B424D7 /* facebook_ios_sdk_Prefix.pch */,
+			);
+			path = FBConnect;
+			sourceTree = "<group>";
+		};
+		338CB8671793EE5700B424D7 /* FacebookSDK */ = {
+			isa = PBXGroup;
+			children = (
+				338CB8681793EE5700B424D7 /* FacebookSDK.framework */,
+				338CB8691793EE5700B424D7 /* LICENSE */,
+				338CB86A1793EE5700B424D7 /* README */,
+			);
+			path = FacebookSDK;
+			sourceTree = "<group>";
+		};
+		338CB86C1793EE5700B424D7 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				338CB86D1793EE5700B424D7 /* FBSBJSON.h */,
+				338CB86E1793EE5700B424D7 /* FBSBJSON.m */,
+				338CB86F1793EE5700B424D7 /* FBSBJsonBase.h */,
+				338CB8701793EE5700B424D7 /* FBSBJsonBase.m */,
+				338CB8711793EE5700B424D7 /* FBSBJsonParser.h */,
+				338CB8721793EE5700B424D7 /* FBSBJsonParser.m */,
+				338CB8731793EE5700B424D7 /* FBSBJsonWriter.h */,
+				338CB8741793EE5700B424D7 /* FBSBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		338CB8761793EE5700B424D7 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				338CB8771793EE5700B424D7 /* JSON.h */,
+				338CB8781793EE5700B424D7 /* NSObject+SBJSON.h */,
+				338CB8791793EE5700B424D7 /* NSObject+SBJSON.m */,
+				338CB87A1793EE5700B424D7 /* NSString+SBJSON.h */,
+				338CB87B1793EE5700B424D7 /* NSString+SBJSON.m */,
+				338CB87C1793EE5700B424D7 /* SBJSON.h */,
+				338CB87D1793EE5700B424D7 /* SBJSON.m */,
+				338CB87E1793EE5700B424D7 /* SBJsonBase.h */,
+				338CB87F1793EE5700B424D7 /* SBJsonBase.m */,
+				338CB8801793EE5700B424D7 /* SBJsonParser.h */,
+				338CB8811793EE5700B424D7 /* SBJsonParser.m */,
+				338CB8821793EE5700B424D7 /* SBJsonWriter.h */,
+				338CB8831793EE5700B424D7 /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		338CB8841793EE5700B424D7 /* OAuth */ = {
+			isa = PBXGroup;
+			children = (
+				338CB8851793EE5700B424D7 /* Categories */,
+				338CB88C1793EE5700B424D7 /* Crypto */,
+				338CB88F1793EE5700B424D7 /* Keychain */,
+				338CB8921793EE5700B424D7 /* OAAsynchronousDataFetcher.h */,
+				338CB8931793EE5700B424D7 /* OAAsynchronousDataFetcher.m */,
+				338CB8941793EE5700B424D7 /* OAConsumer.h */,
+				338CB8951793EE5700B424D7 /* OAConsumer.m */,
+				338CB8961793EE5700B424D7 /* OADataFetcher.h */,
+				338CB8971793EE5700B424D7 /* OADataFetcher.m */,
+				338CB8981793EE5700B424D7 /* OAHMAC_SHA1SignatureProvider.h */,
+				338CB8991793EE5700B424D7 /* OAHMAC_SHA1SignatureProvider.m */,
+				338CB89A1793EE5700B424D7 /* OAMutableURLRequest.h */,
+				338CB89B1793EE5700B424D7 /* OAMutableURLRequest.m */,
+				338CB89C1793EE5700B424D7 /* OAPlaintextSignatureProvider.h */,
+				338CB89D1793EE5700B424D7 /* OAPlaintextSignatureProvider.m */,
+				338CB89E1793EE5700B424D7 /* OARequestParameter.h */,
+				338CB89F1793EE5700B424D7 /* OARequestParameter.m */,
+				338CB8A01793EE5700B424D7 /* OAServiceTicket.h */,
+				338CB8A11793EE5700B424D7 /* OAServiceTicket.m */,
+				338CB8A21793EE5700B424D7 /* OASignatureProviding.h */,
+				338CB8A31793EE5700B424D7 /* OAToken.h */,
+				338CB8A41793EE5700B424D7 /* OAToken.m */,
+				338CB8A51793EE5700B424D7 /* OAuthConsumer.h */,
+			);
+			path = OAuth;
+			sourceTree = "<group>";
+		};
+		338CB8851793EE5700B424D7 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				338CB8861793EE5700B424D7 /* NSMutableURLRequest+Parameters.h */,
+				338CB8871793EE5700B424D7 /* NSMutableURLRequest+Parameters.m */,
+				338CB8881793EE5700B424D7 /* NSString+URLEncoding.h */,
+				338CB8891793EE5700B424D7 /* NSString+URLEncoding.m */,
+				338CB88A1793EE5700B424D7 /* NSURL+Base.h */,
+				338CB88B1793EE5700B424D7 /* NSURL+Base.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		338CB88C1793EE5700B424D7 /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				338CB88D1793EE5700B424D7 /* Base64Transcoder.c */,
+				338CB88E1793EE5700B424D7 /* Base64Transcoder.h */,
+			);
+			path = Crypto;
+			sourceTree = "<group>";
+		};
+		338CB88F1793EE5700B424D7 /* Keychain */ = {
+			isa = PBXGroup;
+			children = (
+				338CB8901793EE5700B424D7 /* SFHFKeychainUtils.h */,
+				338CB8911793EE5700B424D7 /* SFHFKeychainUtils.m */,
+			);
+			path = Keychain;
+			sourceTree = "<group>";
+		};
+		33BB2B661740CFAF00DD5DA1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				33E070F21765C4A2000FAC16 /* rss.sqlite */,
+				33BB2B671740CFAF00DD5DA1 /* Default-568h@2x.png */,
+				33BB2B681740CFAF00DD5DA1 /* Default.png */,
+				33BB2B691740CFAF00DD5DA1 /* Default@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		33BB2B6D1740CFB500DD5DA1 /* UIImage+ImageNamed568 */ = {
+			isa = PBXGroup;
+			children = (
+				33BB2B6E1740CFB500DD5DA1 /* UIImage+ImageNamed568.h */,
+				33BB2B6F1740CFB500DD5DA1 /* UIImage+ImageNamed568.m */,
+			);
+			path = "UIImage+ImageNamed568";
+			sourceTree = "<group>";
+		};
+		33E070E21765C302000FAC16 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				33E070E31765C313000FAC16 /* FMDatabase.h */,
+				33E070E41765C313000FAC16 /* FMDatabase.m */,
+				33E070E51765C313000FAC16 /* FMDatabaseAdditions.h */,
+				33E070E61765C313000FAC16 /* FMDatabaseAdditions.m */,
+				33E070E71765C313000FAC16 /* FMDatabasePool.h */,
+				33E070E81765C313000FAC16 /* FMDatabasePool.m */,
+				33E070E91765C313000FAC16 /* FMDatabaseQueue.h */,
+				33E070EA1765C313000FAC16 /* FMDatabaseQueue.m */,
+				33E070EB1765C313000FAC16 /* FMResultSet.h */,
+				33E070EC1765C313000FAC16 /* FMResultSet.m */,
+			);
+			name = fmdb;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		331C0CF316F36431004F0AF7 /* NewsCatalog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 331C0D1716F36431004F0AF7 /* Build configuration list for PBXNativeTarget "NewsCatalog" */;
+			buildPhases = (
+				331C0CF016F36431004F0AF7 /* Sources */,
+				331C0CF116F36431004F0AF7 /* Frameworks */,
+				331C0CF216F36431004F0AF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NewsCatalog;
+			productName = NewsCatalog;
+			productReference = 331C0CF416F36431004F0AF7 /* NewsCatalog.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		331C0CEC16F36431004F0AF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EX;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = RogaAndKopita;
+			};
+			buildConfigurationList = 331C0CEF16F36431004F0AF7 /* Build configuration list for PBXProject "NewsCatalog" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 331C0CEB16F36431004F0AF7;
+			productRefGroup = 331C0CF516F36431004F0AF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				331C0CF316F36431004F0AF7 /* NewsCatalog */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		331C0CF216F36431004F0AF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				331C0D0216F36431004F0AF7 /* InfoPlist.strings in Resources */,
+				331C0D1116F36431004F0AF7 /* MainStoryboard.storyboard in Resources */,
+				33BB2B6A1740CFAF00DD5DA1 /* Default-568h@2x.png in Resources */,
+				33BB2B6B1740CFAF00DD5DA1 /* Default.png in Resources */,
+				33BB2B6C1740CFAF00DD5DA1 /* Default@2x.png in Resources */,
+				33E070F31765C4A2000FAC16 /* rss.sqlite in Resources */,
+				338CB8A91793EE5700B424D7 /* ATResources.bundle in Resources */,
+				338CB8CD1793EE5700B424D7 /* LICENSE in Resources */,
+				338CB8CE1793EE5700B424D7 /* README in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		331C0CF016F36431004F0AF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				331C0D0416F36431004F0AF7 /* main.m in Sources */,
+				331C0D0816F36431004F0AF7 /* EXAppDelegate.m in Sources */,
+				331C0D1416F36431004F0AF7 /* EXViewController.m in Sources */,
+				331C0D1C16F36B7F004F0AF7 /* EXImageCell.m in Sources */,
+				335B917E1705AF09004AB93A /* EXDetailViewController.m in Sources */,
+				33274C23172AA8FB00D2A135 /* AFHTTPClient.m in Sources */,
+				33274C24172AA8FB00D2A135 /* AFHTTPRequestOperation.m in Sources */,
+				33274C25172AA8FB00D2A135 /* AFImageRequestOperation.m in Sources */,
+				33274C26172AA8FB00D2A135 /* AFJSONRequestOperation.m in Sources */,
+				33274C27172AA8FB00D2A135 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				33274C28172AA8FB00D2A135 /* AFPropertyListRequestOperation.m in Sources */,
+				33274C29172AA8FB00D2A135 /* AFURLConnectionOperation.m in Sources */,
+				33274C2A172AA8FB00D2A135 /* AFXMLRequestOperation.m in Sources */,
+				33274C2B172AA8FB00D2A135 /* UIImageView+AFNetworking.m in Sources */,
+				33274C31172AA90600D2A135 /* RSSItem.m in Sources */,
+				33274C32172AA90600D2A135 /* RSSParser.m in Sources */,
+				33274C35172AAE5A00D2A135 /* EXWebViewController.m in Sources */,
+				33BB2B701740CFB500DD5DA1 /* UIImage+ImageNamed568.m in Sources */,
+				33BB2B731740D16500DD5DA1 /* EXSplashScreenViewController.m in Sources */,
+				3310EC1517534B3600E3D17E /* EXConsts.m in Sources */,
+				3310EC1817534C9500E3D17E /* EXSettingsViewController.m in Sources */,
+				33E070ED1765C313000FAC16 /* FMDatabase.m in Sources */,
+				33E070EE1765C313000FAC16 /* FMDatabaseAdditions.m in Sources */,
+				33E070EF1765C313000FAC16 /* FMDatabasePool.m in Sources */,
+				33E070F01765C313000FAC16 /* FMDatabaseQueue.m in Sources */,
+				33E070F11765C313000FAC16 /* FMResultSet.m in Sources */,
+				3326F39B17787F710046B030 /* UIScrollView+SVInfiniteScrolling.m in Sources */,
+				3326F39C17787F710046B030 /* UIScrollView+SVPullToRefresh.m in Sources */,
+				3326F3A11778817B0046B030 /* EXClient.m in Sources */,
+				338CB8AA1793EE5700B424D7 /* FBCacheDescriptor.m in Sources */,
+				338CB8AB1793EE5700B424D7 /* FBCacheIndex.m in Sources */,
+				338CB8AC1793EE5700B424D7 /* FBContentLink.m in Sources */,
+				338CB8AD1793EE5700B424D7 /* FBDataDiskCache.m in Sources */,
+				338CB8AE1793EE5700B424D7 /* FBDialog.m in Sources */,
+				338CB8AF1793EE5700B424D7 /* FBError.m in Sources */,
+				338CB8B01793EE5700B424D7 /* FBFrictionlessRequestSettings.m in Sources */,
+				338CB8B11793EE5700B424D7 /* FBFriendPickerCacheDescriptor.m in Sources */,
+				338CB8B21793EE5700B424D7 /* FBFriendPickerViewController.m in Sources */,
+				338CB8B31793EE5700B424D7 /* FBGraphObject.m in Sources */,
+				338CB8B41793EE5700B424D7 /* FBGraphObjectPagingLoader.m in Sources */,
+				338CB8B51793EE5700B424D7 /* FBGraphObjectTableCell.m in Sources */,
+				338CB8B61793EE5700B424D7 /* FBGraphObjectTableDataSource.m in Sources */,
+				338CB8B71793EE5700B424D7 /* FBGraphObjectTableSelection.m in Sources */,
+				338CB8B81793EE5700B424D7 /* FBLogger.m in Sources */,
+				338CB8B91793EE5700B424D7 /* FBLoginDialog.m in Sources */,
+				338CB8BA1793EE5700B424D7 /* FBLoginView.m in Sources */,
+				338CB8BB1793EE5700B424D7 /* FBNativeDialogs.m in Sources */,
+				338CB8BC1793EE5700B424D7 /* FBPlacePickerCacheDescriptor.m in Sources */,
+				338CB8BD1793EE5700B424D7 /* FBPlacePickerViewController.m in Sources */,
+				338CB8BE1793EE5700B424D7 /* FBProfilePictureView.m in Sources */,
+				338CB8BF1793EE5700B424D7 /* FBRequest.m in Sources */,
+				338CB8C01793EE5700B424D7 /* FBRequestBody.m in Sources */,
+				338CB8C11793EE5700B424D7 /* FBRequestConnection.m in Sources */,
+				338CB8C21793EE5700B424D7 /* FBSession.m in Sources */,
+				338CB8C31793EE5700B424D7 /* FBSessionManualTokenCachingStrategy.m in Sources */,
+				338CB8C41793EE5700B424D7 /* FBSessionTokenCachingStrategy.m in Sources */,
+				338CB8C51793EE5700B424D7 /* FBSettings.m in Sources */,
+				338CB8C61793EE5700B424D7 /* FBTestSession.m in Sources */,
+				338CB8C71793EE5700B424D7 /* FBURLConnection.m in Sources */,
+				338CB8C81793EE5700B424D7 /* FBUserSettingsViewController.m in Sources */,
+				338CB8C91793EE5700B424D7 /* FBUtility.m in Sources */,
+				338CB8CA1793EE5700B424D7 /* FBViewController.m in Sources */,
+				338CB8CB1793EE5700B424D7 /* Facebook.m in Sources */,
+				338CB8CF1793EE5700B424D7 /* FBSBJSON.m in Sources */,
+				338CB8D01793EE5700B424D7 /* FBSBJsonBase.m in Sources */,
+				338CB8D11793EE5700B424D7 /* FBSBJsonParser.m in Sources */,
+				338CB8D21793EE5700B424D7 /* FBSBJsonWriter.m in Sources */,
+				338CB8D31793EE5700B424D7 /* NSObject+SBJSON.m in Sources */,
+				338CB8D41793EE5700B424D7 /* NSString+SBJSON.m in Sources */,
+				338CB8D51793EE5700B424D7 /* SBJSON.m in Sources */,
+				338CB8D61793EE5700B424D7 /* SBJsonBase.m in Sources */,
+				338CB8D71793EE5700B424D7 /* SBJsonParser.m in Sources */,
+				338CB8D81793EE5700B424D7 /* SBJsonWriter.m in Sources */,
+				338CB8D91793EE5700B424D7 /* NSMutableURLRequest+Parameters.m in Sources */,
+				338CB8DA1793EE5700B424D7 /* NSString+URLEncoding.m in Sources */,
+				338CB8DB1793EE5700B424D7 /* NSURL+Base.m in Sources */,
+				338CB8DC1793EE5700B424D7 /* Base64Transcoder.c in Sources */,
+				338CB8DD1793EE5700B424D7 /* SFHFKeychainUtils.m in Sources */,
+				338CB8DE1793EE5700B424D7 /* OAAsynchronousDataFetcher.m in Sources */,
+				338CB8DF1793EE5700B424D7 /* OAConsumer.m in Sources */,
+				338CB8E01793EE5700B424D7 /* OADataFetcher.m in Sources */,
+				338CB8E11793EE5700B424D7 /* OAHMAC_SHA1SignatureProvider.m in Sources */,
+				338CB8E21793EE5700B424D7 /* OAMutableURLRequest.m in Sources */,
+				338CB8E31793EE5700B424D7 /* OAPlaintextSignatureProvider.m in Sources */,
+				338CB8E41793EE5700B424D7 /* OARequestParameter.m in Sources */,
+				338CB8E51793EE5700B424D7 /* OAServiceTicket.m in Sources */,
+				338CB8E61793EE5700B424D7 /* OAToken.m in Sources */,
+				338CB8E71793EE5700B424D7 /* Reachability.m in Sources */,
+				331B703317A6670A00C4AC22 /* RssModel.xcdatamodeld in Sources */,
+				331B703617A6688800C4AC22 /* RssManagedItem.m in Sources */,
+				331B703917A66A0E00C4AC22 /* RssManagedItem+Images.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		331C0D0016F36431004F0AF7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				331C0D0116F36431004F0AF7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		331C0D0F16F36431004F0AF7 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				331C0D1016F36431004F0AF7 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		331C0D1516F36431004F0AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		331C0D1616F36431004F0AF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		331C0D1816F36431004F0AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Libraries/AddThis/ThirdPartyLibs/FBConnect/FacebookSDK\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NewsCatalog/NewsCatalog-Prefix.pch";
+				INFOPLIST_FILE = "NewsCatalog/NewsCatalog-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Libraries/AddThis\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		331C0D1916F36431004F0AF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Libraries/AddThis/ThirdPartyLibs/FBConnect/FacebookSDK\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NewsCatalog/NewsCatalog-Prefix.pch";
+				INFOPLIST_FILE = "NewsCatalog/NewsCatalog-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Libraries/AddThis\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		331C0CEF16F36431004F0AF7 /* Build configuration list for PBXProject "NewsCatalog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				331C0D1516F36431004F0AF7 /* Debug */,
+				331C0D1616F36431004F0AF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		331C0D1716F36431004F0AF7 /* Build configuration list for PBXNativeTarget "NewsCatalog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				331C0D1816F36431004F0AF7 /* Debug */,
+				331C0D1916F36431004F0AF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		331B703117A6670A00C4AC22 /* RssModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				331B703217A6670A00C4AC22 /* RssModel.xcdatamodel */,
+			);
+			currentVersion = 331B703217A6670A00C4AC22 /* RssModel.xcdatamodel */;
+			path = RssModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 331C0CEC16F36431004F0AF7 /* Project object */;
+}
